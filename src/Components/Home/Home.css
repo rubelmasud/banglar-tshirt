@@ -1,0 +1,10 @@
+.tshirts-container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.tshirt-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 50px;
+}
